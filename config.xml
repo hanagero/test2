@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.1">
   <name>Hello World App</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
-  <access origin="*"/>
   <allow-navigation href="*"/>
   <allow-intent href="itms:*"/>
   <allow-intent href="itms-apps:*"/>
-  <preference name="DisallowOverscroll" value="true"/>
   <preference name="Orientation" value="default"/>
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
@@ -18,13 +16,9 @@
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="1000"/>
   <preference name="AllowInlineMediaPlayback" value="false"/>
-  <preference name="AutoHideSplashScreen" value="true"/>
   <preference name="BackupWebStorage" value="cloud"/>
-  <preference name="EnableViewportScale" value="false"/>
-  <preference name="FadeSplashScreen" value="true"/>
   <preference name="KeyboardDisplayRequiresUserAction" value="true"/>
   <preference name="MediaPlaybackRequiresUserAction" value="false"/>
-  <preference name="ShowSplashScreenSpinner" value="false"/>
   <preference name="SuppressesIncrementalRendering" value="false"/>
   <preference name="TopActivityIndicator" value="gray"/>
   <preference name="GapBetweenPages" value="0"/>
@@ -40,11 +34,6 @@
   <preference name="monaca:targetFamilyiPad" value="1"/>
   <preference name="FadeSplashScreenDuration" value="250"/>
   <platform name="ios">
-    <config-file platform="ios" parent="CFBundleLocalizations" target="*-Info.plist">
-      <array>
-        <string>en</string>
-      </array>
-    </config-file>
     <icon src="/res/ios/icon/icon.png" width="57" height="57"/>
     <icon src="/res/ios/icon/icon@2x.png" width="114" height="114"/>
     <icon src="/res/ios/icon/icon-72.png" width="72" height="72"/>
@@ -72,6 +61,11 @@
     <splash src="/res/ios/screen/Default-Landscape~ipad.png" width="1024" height="768"/>
     <splash src="/res/ios/screen/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
     <splash src="/res/ios/screen/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+    <config-file platform="ios" parent="CFBundleLocalizations" target="*-Info.plist">
+      <array>
+        <string>en</string>
+      </array>
+    </config-file>
   </platform>
   <platform name="android">
     <icon src="/res/android/icon/ldpi.png" density="ldpi"/>
@@ -98,6 +92,12 @@
     <icon src="/platforms/chrome/icon.png" width="128" height="128"/>
   </platform>
   <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="FadeSplashScreen" value="true"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <access origin="*"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="EnableViewportScale" value="false"/>
   <preference name="WindowsStorePublisherName" value="My Name"/>
-  <preference name="WindowsStoreIdentityName" value="63430383-372e-1401-c38d-026ea91e0665"/>
+  <preference name="WindowsStoreIdentityName" value="6348ab7e-8749-25eb-fe16-613bea99fdc5"/>
 </widget>
