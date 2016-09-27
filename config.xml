@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.2">
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.3">
   <name>Hello World App</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
@@ -99,5 +99,5 @@
   <preference name="SplashScreenDelay" value="1000"/>
   <preference name="Fullscreen" value="false"/>
   <preference name="WindowsStorePublisherName" value="My Name"/>
-  <preference name="WindowsStoreIdentityName" value="610761d2-c791-4177-0200-547d909c0824"/>
+  <preference name="WindowsStoreIdentityName" value="9d0bfa10-ae97-3b25-81d0-a426a5d4d5cf"/>
 </widget>
